@@ -1,16 +1,19 @@
 
-z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8æûëîâ1
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8×íÃıë1J$034362fb-8c42-4295-ab10-02e851ccda8a
 ]
-java:S1220""Move this file to a named package.8æñŞîâ1J$88ee4abd-2fbf-44fb-b859-b638e1fcba4c
-m	java:S106
-"+Replace this use of System.out by a logger.(Ä™¶Æ8ğñŞîâ1J$c8abd3e4-b573-4ea1-96bd-e412439f53ee
-m	java:S1069"+Replace this use of System.out by a logger.(Ú÷•Ï8ì®áîâ1J$47681a32-58f2-4a8c-a6f2-5531e43ad048
-m	java:S106?"+Replace this use of System.out by a logger.(àïôÊ8ì®áîâ1J$4bba315d-f1ac-4352-b8ac-24c2e00e9fd7
-m	java:S106|"+Replace this use of System.out by a logger.(½šÆÛ8ñ®áîâ1J$a7db422e-bc23-4088-8332-25c315fc9f78
-m	java:S106}"+Replace this use of System.out by a logger.(‚ÎšÛ8ò®áîâ1J$e1f8473d-26a7-41d9-9638-c0f7ea9fc174
-l	java:S106~"+Replace this use of System.out by a logger.(š²ıc8ò®áîâ1J$27f819e6-1320-4fe0-af04-03f4b50ab2da
-m	java:S106"+Replace this use of System.out by a logger.(‚ÎšÛ8ó®áîâ1J$510d141d-dad3-4dd5-b56f-5c4ef8e512db
-n	java:S106€"+Replace this use of System.out by a logger.(èå”8ó®áîâ1J$f55527a0-f596-425d-b1fb-5cb9fbf7a807
-n	java:S106…"+Replace this use of System.out by a logger.(¯Óêï8ô®áîâ1J$1538b85f-d21b-46f6-8aaa-919f87db5fb6
-n	java:S106ˆ"+Replace this use of System.out by a logger.(‰¨ËÓ8õ®áîâ1J$25d05e13-aefc-48f6-b391-d58aab93017f
-s	java:S106‹"+Replace this use of System.out by a logger.(äßŸµşÿÿÿÿ8õ®áîâ1J$9ce4efd1-00cb-4791-82be-d37d90a109ae
+java:S1220""Move this file to a named package.8ÙíÃıë1J$5cae139c-8156-4c90-a3ca-49f2fa20bb5a
+
+java:S1450"[Remove the "boxAvailable" field and declare it as a local variable in the relevant methods.(ëæä‚8¦ğÃıë1J$ef0bd8b4-2c4f-4d50-b058-6a6271a1b80e
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ôØù˜ıÿÿÿÿ8§ğÃıë1J$3123a666-a661-4a75-ba05-5f75b341d8c2
+m	java:S106"+Replace this use of System.out by a logger.(Ä™¶Æ8­ğÃıë1J$db946533-8ab4-477f-9103-91bf2fe10456
+m	java:S106@"+Replace this use of System.out by a logger.(Ú÷•Ï8°ğÃıë1J$9360a62e-72e0-4884-b1bc-1da861860913
+m	java:S106F"+Replace this use of System.out by a logger.(àïôÊ8°ğÃıë1J$7f593390-87b1-4554-8d1f-bdfb36a14990
+m	java:S106"+Replace this use of System.out by a logger.(½šÆÛ8²ğÃıë1J$276b3433-0a07-461f-b9b1-3866b2999be9
+n	java:S106€"+Replace this use of System.out by a logger.(‚ÎšÛ8³ğÃıë1J$ef7f7219-1711-4f0e-8638-feb75afc107d
+m	java:S106"+Replace this use of System.out by a logger.(š²ıc8³ğÃıë1J$52298d91-40cf-4b15-92d4-7d1b35b80e79
+n	java:S106‚"+Replace this use of System.out by a logger.(‚ÎšÛ8³ğÃıë1J$dd33500b-097c-41b8-984f-6449eebf93b3
+n	java:S106ƒ"+Replace this use of System.out by a logger.(èå”8³ğÃıë1J$a0f175a2-b979-4aac-9156-6d42e0108014
+n	java:S106ˆ"+Replace this use of System.out by a logger.(¯Óêï8´ğÃıë1J$75ac4c45-ec24-46ae-87fb-646365211f50
+n	java:S106‹"+Replace this use of System.out by a logger.(‰¨ËÓ8´ğÃıë1J$0116f068-36f6-4edd-8b02-3c2933a95998
+s	java:S106"+Replace this use of System.out by a logger.(äßŸµşÿÿÿÿ8´ğÃıë1J$29f6a376-7e9a-4233-9d39-67554162a421

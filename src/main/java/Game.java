@@ -1,12 +1,19 @@
 import java.util.Scanner;
 
 public class Game {
-    boolean boxAvailable;
-    byte winner = 0;
-    char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
-    boolean boxEmpty = false;
-    Scanner scan = new Scanner(System.in);
-   public Game(){
+    private static Game gameInstance = new Game();
+    private boolean boxAvailable;
+    private byte winner = 0;
+    private char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    private boolean boxEmpty = false;
+    private static int[][] winningCombinations = {
+            {0, 1, 2}, {3, 4, 5}, {6, 7, 8},
+            {0, 3, 6}, {1, 4, 7}, {2, 5, 8},
+            {0, 4, 8}, {2, 4, 6}
+    };
+    private static Scanner scan = new Scanner(System.in);
+   private Game(){}
+   public void start(){
        System.out.println("Enter box number to select. Enjoy!\n");
        while (true) {
 
@@ -82,11 +89,7 @@ public class Game {
 
     private static boolean checkWin(char[] box, char symbol) {
 
-        int[][] winningCombinations = {
-                {0, 1, 2}, {3, 4, 5}, {6, 7, 8},
-                {0, 3, 6}, {1, 4, 7}, {2, 5, 8},
-                {0, 4, 8}, {2, 4, 6}
-        };
+
 
         for (int[] combo : winningCombinations) {
             if (box[combo[0]] == symbol && box[combo[1]] == symbol && box[combo[2]] == symbol) {
@@ -140,5 +143,8 @@ public class Game {
 
         }
 
+    }
+    public static Game getGameInstance(){
+     return gameInstance;
     }
 }
